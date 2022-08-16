@@ -29,3 +29,40 @@ body {
     position: sticky;
     overflow: hidden;
 }
+
+header h1 {
+    color: var(--secondary-color);
+    margin: 5px 10px 5px 30px;
+    font-size: 50px;
+}
+
+header nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+Nav a {
+    color: var(--secondary-color);
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+}

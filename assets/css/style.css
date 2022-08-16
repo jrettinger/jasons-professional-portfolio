@@ -144,7 +144,7 @@ img {
     background-color: var(--third-color);
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 600px) {
     header {
         padding-bottom: 0;
         justify-content: center;

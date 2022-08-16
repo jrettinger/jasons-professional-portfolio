@@ -19,3 +19,13 @@ body {
     background-color: var(--secondary-color);
     font-family: 'Times New Roman', Times, serif;
 }
+
+.header {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    overflow: hidden;
+}
